@@ -2,21 +2,26 @@ import React from 'react';
 
 export default function AppComp08() {
   const movie1 = {
-    title: '우리가 말하지 않은 것',
-    source: 'img/movie1.jpg',
-    actor: '오시마 유코, 와카바 류야, 타케다',
+    title: '스즈메의 문단속',
+    source: 'https://t1.daumcdn.net/movie/3a684ccaeb7aeac8e3f060ffe7249f7fe039443a',
+    actor: '스즈메, 소타, 다이진',
   };
 
   const movie2 = {
-    title: '리미트',
-    source: 'img/movie2.jpg',
-    actor: '문정희,진서연',
+    title: '너의 이름은',
+    source: 'https://t1.daumcdn.net/movie/267f4aed284629f637f266497e739697a567550e',
+    actor: '타키, 미츠하',
   };
 
   const movie3 = {
-    title: '시맨틱 에러: 더 무비',
-    source: 'img/movie3.jpg',
-    actor: '박재찬, 박서함,김노진',
+    title: '날씨의 아이',
+    source: 'https://t1.daumcdn.net/movie/dfae27c930b8506252f6e4051e05363761c22b3c',
+    actor: '호다카, 히나',
+  };
+  const movie4 = {
+    title: '초속 5센티미터',
+    source: 'https://upload.wikimedia.org/wikipedia/ko/0/03/초속_5센티미터.jpg',
+    actor: '타카키, 아카리',
   };
 
   return (
@@ -24,6 +29,7 @@ export default function AppComp08() {
       <Movie data={movie1} />
       <Movie data={movie2} />
       <Movie data={movie3} />
+      <Movie data={movie4} />
     </div>
   );
 }
