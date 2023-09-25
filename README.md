@@ -1,3 +1,4 @@
 # web_dev2
+## 4주차
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/stackblitz-starters-bk4rf4)
+component => SOC(Separation of Concerns)
